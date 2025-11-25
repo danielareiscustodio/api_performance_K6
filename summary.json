@@ -1,0 +1,525 @@
+{
+  "state": {
+    "isStdOutTTY": true,
+    "isStdErrTTY": true,
+    "testRunDurationMs": 217001.759
+  },
+  "metrics": {
+    "vus_max": {
+      "type": "gauge",
+      "contains": "default",
+      "values": {
+        "value": 10,
+        "min": 10,
+        "max": 10
+      }
+    },
+    "http_req_waiting": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(90)": 140.70460000000014,
+        "p(95)": 209.65659999999997,
+        "avg": 44.68475884244372,
+        "min": 1.692,
+        "med": 3.329,
+        "max": 646.814
+      }
+    },
+    "task_delete_success_rate": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "rate": 1,
+        "passes": 259,
+        "fails": 0
+      },
+      "thresholds": {
+        "rate>0.90": {
+          "ok": true
+        }
+      }
+    },
+    "http_req_connecting": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(95)": 0,
+        "avg": 0.004068810289389067,
+        "min": 0,
+        "med": 0,
+        "max": 1.56,
+        "p(90)": 0
+      }
+    },
+    "data_sent": {
+      "values": {
+        "count": 615793,
+        "rate": 2837.732757733084
+      },
+      "type": "counter",
+      "contains": "data"
+    },
+    "iteration_duration": {
+      "values": {
+        "med": 5243.70285,
+        "max": 5718.973452,
+        "p(90)": 5442.970091,
+        "p(95)": 5490.8540107,
+        "avg": 5279.872017915054,
+        "min": 5123.378437
+      },
+      "type": "trend",
+      "contains": "time"
+    },
+    "http_reqs": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 1555,
+        "rate": 7.1658405312742195
+      }
+    },
+    "task_update_time": {
+      "values": {
+        "min": 2,
+        "med": 4,
+        "max": 352,
+        "p(90)": 104.20000000000002,
+        "p(95)": 146.99999999999994,
+        "avg": 30.046332046332047
+      },
+      "thresholds": {
+        "p(95)<500": {
+          "ok": true
+        }
+      },
+      "type": "trend",
+      "contains": "default"
+    },
+    "group_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 2139.3374500057903,
+        "min": 605.312814,
+        "med": 2332.6113725,
+        "max": 3987.252019,
+        "p(90)": 3702.4154312,
+        "p(95)": 3729.0347107
+      }
+    },
+    "task_list_success_rate": {
+      "values": {
+        "rate": 1,
+        "passes": 259,
+        "fails": 0
+      },
+      "thresholds": {
+        "rate>0.90": {
+          "ok": true
+        }
+      },
+      "type": "rate",
+      "contains": "default"
+    },
+    "task_delete_time": {
+      "thresholds": {
+        "p(95)<500": {
+          "ok": true
+        }
+      },
+      "type": "trend",
+      "contains": "default",
+      "values": {
+        "max": 244,
+        "p(90)": 15.200000000000017,
+        "p(95)": 101,
+        "avg": 13.694980694980694,
+        "min": 2,
+        "med": 3
+      }
+    },
+    "http_req_receiving": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "med": 0.069,
+        "max": 71.683,
+        "p(90)": 0.12,
+        "p(95)": 0.14629999999999996,
+        "avg": 0.12557234726688116,
+        "min": 0.033
+      }
+    },
+    "task_list_time": {
+      "contains": "default",
+      "values": {
+        "max": 297,
+        "p(90)": 102,
+        "p(95)": 116.79999999999973,
+        "avg": 23.80888030888031,
+        "min": 2,
+        "med": 3
+      },
+      "thresholds": {
+        "p(95)<500": {
+          "ok": true
+        }
+      },
+      "type": "trend"
+    },
+    "http_req_failed": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "passes": 0,
+        "fails": 1555,
+        "rate": 0
+      },
+      "thresholds": {
+        "rate<0.05": {
+          "ok": true
+        }
+      }
+    },
+    "task_update_success_rate": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "rate": 1,
+        "passes": 259,
+        "fails": 0
+      },
+      "thresholds": {
+        "rate>0.90": {
+          "ok": true
+        }
+      }
+    },
+    "data_received": {
+      "type": "counter",
+      "contains": "data",
+      "values": {
+        "count": 2525576,
+        "rate": 11638.504736728886
+      }
+    },
+    "login_time": {
+      "type": "trend",
+      "contains": "default",
+      "values": {
+        "avg": 164.17374517374517,
+        "min": 104,
+        "med": 120,
+        "max": 647,
+        "p(90)": 270.40000000000003,
+        "p(95)": 311.2
+      },
+      "thresholds": {
+        "p(95)<1000": {
+          "ok": true
+        }
+      }
+    },
+    "http_req_duration{expected_response:true}": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(95)": 209.73729999999998,
+        "avg": 44.849321543408415,
+        "min": 1.748,
+        "med": 3.45,
+        "max": 646.94,
+        "p(90)": 140.86880000000014
+      }
+    },
+    "login_success_rate": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "passes": 259,
+        "fails": 0,
+        "rate": 1
+      },
+      "thresholds": {
+        "rate>0.90": {
+          "ok": true
+        }
+      }
+    },
+    "http_req_sending": {
+      "values": {
+        "med": 0.026,
+        "max": 9.863,
+        "p(90)": 0.048,
+        "p(95)": 0.061,
+        "avg": 0.03899035369774936,
+        "min": 0.009
+      },
+      "type": "trend",
+      "contains": "time"
+    },
+    "task_creation_success_rate": {
+      "thresholds": {
+        "rate>0.90": {
+          "ok": true
+        }
+      },
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "rate": 1,
+        "passes": 259,
+        "fails": 0
+      }
+    },
+    "http_req_tls_handshaking": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "med": 0,
+        "max": 0,
+        "p(90)": 0,
+        "p(95)": 0,
+        "avg": 0,
+        "min": 0
+      }
+    },
+    "task_creation_time": {
+      "contains": "default",
+      "values": {
+        "min": 2,
+        "med": 4,
+        "max": 352,
+        "p(90)": 37.400000000000034,
+        "p(95)": 97,
+        "avg": 14.694980694980694
+      },
+      "thresholds": {
+        "p(95)<500": {
+          "ok": true
+        }
+      },
+      "type": "trend"
+    },
+    "http_req_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 44.849321543408415,
+        "min": 1.748,
+        "med": 3.45,
+        "max": 646.94,
+        "p(90)": 140.86880000000014,
+        "p(95)": 209.73729999999998
+      },
+      "thresholds": {
+        "p(95)<1000": {
+          "ok": true
+        },
+        "p(99)<2000": {
+          "ok": true
+        }
+      }
+    },
+    "http_req_blocked": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "min": 0.002,
+        "med": 0.007,
+        "max": 2093.812,
+        "p(90)": 0.011,
+        "p(95)": 0.014,
+        "avg": 1.366084244372982
+      }
+    },
+    "vus": {
+      "type": "gauge",
+      "contains": "default",
+      "values": {
+        "max": 10,
+        "value": 1,
+        "min": 0
+      }
+    },
+    "checks": {
+      "contains": "default",
+      "values": {
+        "rate": 1,
+        "passes": 4403,
+        "fails": 0
+      },
+      "type": "rate"
+    },
+    "iterations": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 259,
+        "rate": 1.1935387122829728
+      }
+    }
+  },
+  "setup_data": {
+    "apiBase": "http://localhost:3000/api",
+    "baseUrl": "http://localhost:3000",
+    "timestamp": "2025-11-25T12:24:36.124Z"
+  },
+  "root_group": {
+    "groups": [
+      {
+        "name": "Autenticação",
+        "path": "::Autenticação",
+        "id": "8c8faf84c856e780ce527fef7fcebeea",
+        "groups": [],
+        "checks": [
+            {
+              "name": "login status is 200",
+              "path": "::Autenticação::login status is 200",
+              "id": "0ef315a585ae5e7a8259c3a0f0e857df",
+              "passes": 259,
+              "fails": 0
+            },
+            {
+              "path": "::Autenticação::login has token",
+              "id": "7d535c5dbc81c0d63e6600a2825cc919",
+              "passes": 259,
+              "fails": 0,
+              "name": "login has token"
+            },
+            {
+              "name": "login response time < 1000ms",
+              "path": "::Autenticação::login response time < 1000ms",
+              "id": "42fb09705d3979c71fc422140f3b752f",
+              "passes": 259,
+              "fails": 0
+            }
+          ]
+      },
+      {
+        "id": "abce947877c0de4f53201f95d0c2683f",
+        "groups": [],
+        "checks": [
+            {
+              "id": "13a3c699929033c64f98bbf7ddd25ebc",
+              "passes": 259,
+              "fails": 0,
+              "name": "create task status is 201",
+              "path": "::Operações CRUD de Tarefas::create task status is 201"
+            },
+            {
+              "id": "d3a761d102b3786d1def2e60d230bd4a",
+              "passes": 259,
+              "fails": 0,
+              "name": "create task has task id",
+              "path": "::Operações CRUD de Tarefas::create task has task id"
+            },
+            {
+              "name": "create task response time < 500ms",
+              "path": "::Operações CRUD de Tarefas::create task response time < 500ms",
+              "id": "b29d5d049b8d942270715db9a2ff3067",
+              "passes": 259,
+              "fails": 0
+            },
+            {
+              "id": "3f5d668b9233845d9d5e721234877f67",
+              "passes": 259,
+              "fails": 0,
+              "name": "get task status is 200",
+              "path": "::Operações CRUD de Tarefas::get task status is 200"
+            },
+            {
+              "name": "get task has task data",
+              "path": "::Operações CRUD de Tarefas::get task has task data",
+              "id": "f07091afa302452c613ef65cb67dae34",
+              "passes": 259,
+              "fails": 0
+            },
+            {
+              "id": "1458b30f42f98eda877158e4cf5594c1",
+              "passes": 259,
+              "fails": 0,
+              "name": "get task response time < 500ms",
+              "path": "::Operações CRUD de Tarefas::get task response time < 500ms"
+            },
+            {
+              "name": "list tasks status is 200",
+              "path": "::Operações CRUD de Tarefas::list tasks status is 200",
+              "id": "ddb6b6381e89b047bf12334026a89ff0",
+              "passes": 259,
+              "fails": 0
+            },
+            {
+              "fails": 0,
+              "name": "list tasks has tasks array",
+              "path": "::Operações CRUD de Tarefas::list tasks has tasks array",
+              "id": "63226c5eb7b5a6752ab48477c4fb4273",
+              "passes": 259
+            },
+            {
+              "name": "list tasks response time < 500ms",
+              "path": "::Operações CRUD de Tarefas::list tasks response time < 500ms",
+              "id": "074a4cabb00c95b187fce5dca75daaa2",
+              "passes": 259,
+              "fails": 0
+            },
+            {
+              "path": "::Operações CRUD de Tarefas::update task status is 200",
+              "id": "dc546cc008f84caa3bce64800219aebd",
+              "passes": 259,
+              "fails": 0,
+              "name": "update task status is 200"
+            },
+            {
+              "path": "::Operações CRUD de Tarefas::update task has updated task",
+              "id": "732aba9b8c9968315b9fd55f65d461f6",
+              "passes": 259,
+              "fails": 0,
+              "name": "update task has updated task"
+            },
+            {
+              "id": "f3aa2af5f17ce7d5de591b709081bbb4",
+              "passes": 259,
+              "fails": 0,
+              "name": "update task response time < 500ms",
+              "path": "::Operações CRUD de Tarefas::update task response time < 500ms"
+            },
+            {
+              "name": "delete task status is 200",
+              "path": "::Operações CRUD de Tarefas::delete task status is 200",
+              "id": "ed73305e27eda7076c0458f356e742a7",
+              "passes": 259,
+              "fails": 0
+            },
+            {
+              "passes": 259,
+              "fails": 0,
+              "name": "delete task response time < 500ms",
+              "path": "::Operações CRUD de Tarefas::delete task response time < 500ms",
+              "id": "9171c0d57a8b227c32886d1d26db0dc3"
+            }
+          ],
+        "name": "Operações CRUD de Tarefas",
+        "path": "::Operações CRUD de Tarefas"
+      }
+    ],
+    "checks": [],
+    "name": "",
+    "path": "",
+    "id": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "options": {
+    "summaryTrendStats": [
+      "avg",
+      "min",
+      "med",
+      "max",
+      "p(90)",
+      "p(95)"
+    ],
+    "summaryTimeUnit": "",
+    "noColor": false
+  }
+}
