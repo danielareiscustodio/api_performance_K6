@@ -2,7 +2,15 @@
 
 ## 📋 Descrição
 
-Esta é uma API completa desenvolvida para a prova de graduação em automação. A aplicação implementa tanto endpoints REST quanto GraphQL, com sistema de autenticação JWT e testes automatizados abrangentes.
+Este projeto foi desenvolvido como desafio para ganhar 1 ponto na disciplina de Testes de Performance com K6. O objetivo é criar um teste de performance no K6 que realiza login e executa operações que exigem autenticação via token JWT em uma API REST.
+
+O teste implementa os conceitos aprendidos na disciplina, incluindo:
+- Autenticação com obtenção de token JWT
+- Operações CRUD de tarefas utilizando o token de autenticação
+- Configuração de stages (ramp-up, carga constante, ramp-down)
+- Thresholds de performance
+- Métricas customizadas (Rate, Trend, Counter)
+- Geração de relatórios HTML e JSON
 
 ## 🚀 Tecnologias Utilizadas
 
