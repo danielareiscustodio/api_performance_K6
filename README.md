@@ -1,17 +1,8 @@
-# API REST e GraphQL - Prova de Automação
+# Teste de Performance no K6
 
 ## 📋 Descrição
 
 Esta é uma API completa desenvolvida para a prova de graduação em automação. A aplicação implementa tanto endpoints REST quanto GraphQL, com sistema de autenticação JWT e testes automatizados abrangentes.
-
-## 🎯 Pontuação Atendida
-
-- **7 pontos**: Testes automatizados externos (E2E) com Supertest, Mocha e Chai rodando na pipeline
-- **1 ponto**: Testes de controller com Sinon
-- **1 ponto**: Implementação de testes tanto para REST quanto GraphQL
-- **1 ponto**: API nova construída do zero
-
-**Total: 10/10 pontos**
 
 ## 🚀 Tecnologias Utilizadas
 
