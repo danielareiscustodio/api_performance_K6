@@ -26,7 +26,7 @@ O teste implementa os conceitos aprendidos na disciplina, incluindo:
 ## 📁 Estrutura do Projeto
 
 ```
-prova_api_k6/
+api_performance_K6/
 ├── src/                     # Código-fonte da aplicação
 │   ├── controllers/         # Controladores REST
 │   ├── middleware/           # Middlewares (auth, etc.)
@@ -60,7 +60,7 @@ prova_api_k6/
 ### 1. Clone o repositório
 ```bash
 git clone <url-do-repo>
-cd prova_api
+cd api_performance_K6
 ```
 
 ### 2. Instale as dependências
