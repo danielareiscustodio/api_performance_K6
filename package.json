@@ -12,7 +12,7 @@
     "test:validate": "node validate-project.js",
     "test:watch": "mocha test/**/*.test.js --watch",
     "test:coverage": "echo '✅ Test coverage: E2E + Unit tests implemented with Supertest, Mocha, Chai, Sinon' && npm run test:simple",
-    "test:performance": "k6 run k6/performance-test.js",
+    "test:performance": "k6 run test/k6/performance-test.js",
     "lint": "eslint src test"
   },
   "keywords": [
